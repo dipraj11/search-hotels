@@ -1,15 +1,17 @@
 [![Build Status](https://travis-ci.org/dipraj11/search-hotels.svg?branch=master)](https://travis-ci.org/dipraj11/search-hotels)
 
 
-# search-hotels
+# search-hotels assignment
 Challenge solved for tajawal
 
-Developer Challenge (Problem Statment)
+# Developer Challenge (Problem Statment)
+
 The objective of this challenge is to hit an endpoint containing the list of hotels and perform some actions on the result. The challenge must be solved in PHP or NodeJs.
 
 The URL containing the list of hotels can be found at https://api.myjson.com/bins/tl0bp
 
-Requirements and Output
+# Requirements and Output
+
 Create a RESTful API to allow search in the given inventory by any of the following:
 Hotel Name
 Destination [City]
@@ -21,17 +23,27 @@ Hotel Name
 Price
 This is including search by multiple criteria in the same time like search by destination and price together.
 
-Usage:
+# Usage:
 1) Clone repository
-    git clone https://github.com/dipraj11/search-hotels.git
+```
+ git clone https://github.com/dipraj11/search-hotels.git
+```
 2) Checkin in project folder
-    cd search-hotels/
+```
+  cd search-hotels/
+```
 3) Install Packages
-    npm install
+```
+    npm install 
+```
 4) Run Test
+```
     npm test
+```
 5) Start Server
+```
     npm start
+```
 
 Below are link of postmen collections to help with req and res structure.
 
