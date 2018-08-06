@@ -6,7 +6,7 @@ describe('API Testing for status ans response', function () {
         this.timeout(3000);
         var options = {
             method: 'POST',
-            url: 'http://localhost:3000/getHotels',
+            url: 'https://tajawal-challenge-hotel.herokuapp.com/getHotels',
             headers: {
                 'cache-control': 'no-cache',
                 'content-type': 'application/json'
@@ -37,7 +37,7 @@ describe('API Testing for status ans response', function () {
     it('search only for city name', function (done) {
         var options = {
             method: 'POST',
-            url: 'http://localhost:3000/getHotels',
+            url: 'https://tajawal-challenge-hotel.herokuapp.com/getHotels',
             headers: {
                 'cache-control': 'no-cache',
                 'content-type': 'application/json'
@@ -68,7 +68,7 @@ describe('API Testing for status ans response', function () {
     it('search only for price', function (done) {
         var options = {
             method: 'POST',
-            url: 'http://localhost:3000/getHotels',
+            url: 'https://tajawal-challenge-hotel.herokuapp.com/getHotels',
             headers: {
                 'cache-control': 'no-cache',
                 'content-type': 'application/json'
@@ -99,7 +99,7 @@ describe('API Testing for status ans response', function () {
     it('search only for date', function (done) {
         var options = {
             method: 'POST',
-            url: 'http://localhost:3000/getHotels',
+            url: 'https://tajawal-challenge-hotel.herokuapp.com/getHotels',
             headers: {
                 'cache-control': 'no-cache',
                 'content-type': 'application/json'
@@ -130,7 +130,7 @@ describe('API Testing for status ans response', function () {
     it('Without any filter', function (done) {
         var options = {
             method: 'POST',
-            url: 'http://localhost:3000/getHotels',
+            url: 'https://tajawal-challenge-hotel.herokuapp.com/getHotels',
             headers: {
                 'cache-control': 'no-cache',
                 'content-type': 'application/json'
@@ -161,7 +161,7 @@ describe('API Testing for status ans response', function () {
     it('With all filter', function (done) {
         var options = {
             method: 'POST',
-            url: 'http://localhost:3000/getHotels',
+            url: 'https://tajawal-challenge-hotel.herokuapp.com/getHotels',
             headers: {
                 'cache-control': 'no-cache',
                 'content-type': 'application/json'
